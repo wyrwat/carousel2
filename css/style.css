@@ -1,0 +1,12 @@
+
+.carousel-cell {
+    width: 100%; /* full width */
+    height: 700px; /* height of carousel */
+    margin-right: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+  }
+  
+  
