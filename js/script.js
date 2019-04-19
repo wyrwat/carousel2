@@ -6,9 +6,10 @@ var flkty = new Flickity( elem, {
   pageDots: false
 });
 
-// element argument can be a selector string
-//   for an individual element
-var flkty = new Flickity( '.main-carousel', {
-  // options
-  
+
+
+
+$('.button-group').on( 'click', '.button', function() {
+  var index = $(this).index();
+  $carousel.flickity( 'select', index );
 });
